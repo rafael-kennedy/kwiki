@@ -1,0 +1,36 @@
+{
+  "name": "kwiki",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.0",
+  "repository": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "node --inspect --debug-brk ./bin/www",
+    "build": "brunch build --production"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "express-handlebars": "^3.0.0",
+    "handlebars-helpers": "^0.8.2",
+    "hbs": "~4.0.1",
+    "lodash": "^4.17.4",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "0.9.8",
+    "serve-favicon": "~2.3.2",
+    "simplemde": "^1.11.2",
+    "trumbowyg": "^2.5.1"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "iced-coffee-script-brunch": "^1.7.0",
+    "jquery": "^3.2.1",
+    "uglify-js-brunch": "^2"
+  }
+}

@@ -1,0 +1,75 @@
+#sidebar {
+  width: 40%;
+  border-left: 1px solid grey;
+}
+#sidebar ul {
+  list-style-type: none;
+}
+#sidebar li:hover {
+  text-shadow: 1px 1px 2px black;
+}
+
+
+#content {
+  width: 60%;
+}
+#content > div {
+  background-color: #f2f2f2;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+
+#main {
+  display: flex;
+  padding: 0 1em;
+  height: 100%;
+}
+
+.item i {
+  color: lightgrey;
+}
+.item i:hover {
+  color: darkgrey;
+}
+
+.toolbar input, button {
+  box-shadow: 2px 2px lightgray;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 1em;
+  border: none;
+}
+.toolbar button:hover {
+  background-color: #dfdfdf;
+}
+.toolbar button:active {
+  background-color: #dfdfdf;
+  box-shadow: 0 0 0;
+  transform: translateY(2px) translateX(2px);
+}
+
+span.tag {
+  padding: 0 .25em;
+  background-color: lightgrey;
+  border-radius: 6px;
+  margin-right: 0.5em;
+  font-size: smaller;
+}
+
+.item h1 {
+  margin: 0.5em 0 0 0;
+
+}
+
+.top-line {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.quick-buttons {
+  width: 2.5em;
+  margin: 0;
+  padding: 0;
+}
